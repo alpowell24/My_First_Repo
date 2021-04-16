@@ -1,0 +1,66 @@
+nav {
+  outline: 1px solid red;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.sidebar {
+  height: 500px;
+  outline: 1px solid red;
+  width: 30%;
+  float: left;
+}
+
+.mainArea {
+  height: 500px;
+  outline: 1px solid red;
+  width: 70%;
+  float: left;
+}
+
+.topShelf {
+  height: 31%;
+  outline: 1px solid red;
+  position: relative;
+}
+
+.shelfImage {
+  position: absolute;
+  top: 50px;
+  left: 35%;
+  height: 50px;
+  width: 80px;
+  display: block;
+  margin: auto;
+}
+
+.bottomShelf {
+  height: 65%;
+  outline: 1px solid red;
+  padding: 10px;
+}
+
+.mainAreaImage {
+  height: 150px;
+  width: 250px;
+  float: left;
+  padding: 20px;
+}
